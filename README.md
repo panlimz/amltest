@@ -78,7 +78,7 @@
 ---
 
 **P - Descreva qual a abordagem utilizada para desenvolver o código para os ítens de K a O.**
-<br>**R.** Para a resolução das questões acima foi criado o arquivo _test.py_, localizado neste diretório. Utilizei a linguagem Python, em conjunto com a biblioteca Pandas. Essa biblioteca possibilita a manipulação de DataFrames de forma rápida e eficiente, com uma série de funções _built-in_.
+<br>**R.** Para a resolução das questões acima foi criado o arquivo _test.py_, localizado neste diretório. Com o objetivo de mantê-lo didático, criei pequenos trechos de códigos separados por "títulos", criados em formas de comentários a cada trecho desenvolvido. Utilizei a linguagem Python, em conjunto com a biblioteca Pandas. Essa biblioteca possibilita a manipulação de DataFrames de forma rápida e eficiente, com uma série de funções _built-in_.
 <br>Algumas das referências e funções utilizadas foram:
 
 - for -> estrutura de repetição, que repete uma ação sob determinada condição
