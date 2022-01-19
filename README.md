@@ -78,21 +78,21 @@
 ---
 
 **P - Descreva qual a abordagem utilizada para desenvolver o código para os ítens de K a O.**
-<br>**R.** Para a resolução das questões acima, utilizei a linguagem Python, em conjunto com a biblioteca Pandas. Essa biblioteca possibilita a manipulação de DataFrames de forma rápida e eficiente, com uma série de funções _built-in_.
+<br>**R.** Para a resolução das questões acima foi criado o arquivo _test.py_, localizado neste diretório. Utilizei a linguagem Python, em conjunto com a biblioteca Pandas. Essa biblioteca possibilita a manipulação de DataFrames de forma rápida e eficiente, com uma série de funções _built-in_.
 <br>Algumas das referências e funções utilizadas foram:
 
 - for -> estrutura de repetição, que repete uma ação sob determinada condição
 - print() -> função que imprime um valor especificado na tela 
 - pd.read_csv -> leitura do arquivo csv para manipulação
-- df['Column'] -> sintaxe para referenciar uma coluna de um determinado DataFrame
+- df['Column'] -> sintaxe para referenciar uma coluna de um determinado _DataFrame_
 - sum() -> função utilizada para somar itens de uma lista
 - float() -> função para converter um dado para o formato float
 - list() -> armazenar dados em lista
 - .value_counts() -> função que conta os valores de um parâmetro especificado 
-- .str.contains() -> função que busca por um valor 'string' dentro de um DataFrame especificado
+- .str.contains() -> função que busca por um valor 'string' dentro de um _DataFrame_ especificado
 
-Através delas, criei algumas variáveis e condições para visualizar os dados do banco de dados conforme a necessidade de cada exercício. Usando o banco principal como parâmetro, armazenando "novos" bancos a partir dele sob determinadas condições e exibindo as informações necessárias. 
-<br>Como os filtros de dados podem ser feitos com funções pré-existentes, apenas utilizei os nomes das colunas como parâmetros, e algum critério de comparação onde foi necessário. Por exemplo: (data['CÓDIGO ÓRGÃO'] == 20402), onde busquei informações cujo código do órgão fosse compatível com o número comparado.
+Através delas, criei algumas variáveis e condições para visualizar os dados do _DataFrame_ conforme a necessidade de cada exercício. Usando o _DataFrame_ principal como parâmetro, armazenando dados filtrados em listas a partir dele sob determinadas condições e exibindo as informações necessárias. 
+<br>Como os filtros de dados podem ser feitos com funções pré-existentes, apenas utilizei os nomes dos campos (colunas) como parâmetros, e algum critério de comparação onde foi necessário. Por exemplo: (data['CÓDIGO ÓRGÃO'] == 20402), onde busquei informações cujo código do órgão fosse compatível com o número comparado.
 <br>Nos exercícios em que foi necessário somar as informações de transações, utilizei a estrutura de repetição for para percorrer cada item da lista criada contendo cada transação os transformando de string (caracteres) em float (formato numérico) e os reinseri na mesma lista. Após recriar a lista com os dados em formato numérico, pude então somar seus itens, encontrando os valores pedidos nos exercícios. 
 
-> Para completar este teste utilizei a documentação do [Pandas](https://pandas.pydata.org/docs/).
+> Para completar este teste utilizei a documentação do [Pandas](https://pandas.pydata.org/docs/), além do arquivo CSV utilizado como _DataFrame_ para comparação de resultados.
