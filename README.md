@@ -92,7 +92,7 @@
 - .str.contains() -> função que busca por um valor 'string' dentro de um DataFrame especificado
 
 Através delas, criei algumas variáveis e condições para visualizar os dados do banco de dados conforme a necessidade de cada exercício. Usando o banco principal como parâmetro, armazenando "novos" bancos a partir dele sob determinadas condições e exibindo as informações necessárias. 
-<br>Como os filtros de dados podem ser feitos com funções pré-existentes, apenas utilizei os nomes das colunas como parâmetros, e algum critério de comparação onde foi necessário. Por exemplo: (data['CÓDIGO ÓRGÃO'] == 20402), onde busquei informações cujo código do órgão fosse compatível.
-<br>Nos exercícios em que foi necessário somar as informações de transações, transformei os dados (que eram strings) em dados numéricos(neste caso, float) utilizando a estrutura de repetição for, para percorrer cada linha da lista necessária.
+<br>Como os filtros de dados podem ser feitos com funções pré-existentes, apenas utilizei os nomes das colunas como parâmetros, e algum critério de comparação onde foi necessário. Por exemplo: (data['CÓDIGO ÓRGÃO'] == 20402), onde busquei informações cujo código do órgão fosse compatível com o número comparado.
+<br>Nos exercícios em que foi necessário somar as informações de transações, utilizei a estrutura de repetição for para percorrer cada item da lista criada contendo cada transação os transformando de string (caracteres) em float (formato numérico) e os reinseri na mesma lista. Após recriar a lista com os dados em formato numérico, pude então somar seus itens, encontrando os valores pedidos nos exercícios. 
 
 > Para completar este teste utilizei a documentação do [Pandas](https://pandas.pydata.org/docs/).
